@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
   # port forwarding for apache2, mysql and xdebug
   config.vm.network "forwarded_port", guest: 80, host: 80
   config.vm.network "forwarded_port", guest: 3306, host: 3306
-  config.vm.network "forwarded_port", guest: 9990, host: 9990
+  config.vm.network "forwarded_port", guest: 9000, host: 9000
 
   # Synced folders
   config.vm.synced_folder "./", "/var/www", type: "nfs"
@@ -30,7 +30,6 @@ Vagrant.configure(2) do |config|
   # Provision via chef solo
   config.vm.provision "chef_solo" do |chef|
     chef.add_recipe "apt"
-    chef.add_recipe "vim"
     chef.add_recipe "apache2"
     chef.add_recipe "apache2::mod_rewrite"
     chef.add_recipe "apache2::mod_alias"

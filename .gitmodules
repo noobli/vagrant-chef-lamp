@@ -1,0 +1,45 @@
+[submodule "cookbooks/apache2"]
+	path = cookbooks/apache2
+	url = https://github.com/svanzoest-cookbooks/apache2.git
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = https://github.com/chef-cookbooks/apt.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = https://github.com/chef-cookbooks/mysql.git
+[submodule "cookbooks/yum-mysql-community"]
+	path = cookbooks/yum-mysql-community
+	url = https://github.com/chef-cookbooks/yum-mysql-community.git
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = https://github.com/chef-cookbooks/yum.git
+[submodule "cookbooks/smf"]
+	path = cookbooks/smf
+	url = https://github.com/livinginthepast/smf.git
+[submodule "cookbooks/rbac"]
+	path = cookbooks/rbac
+	url = https://github.com/livinginthepast/rbac.git
+[submodule "cookbooks/php"]
+	path = cookbooks/php
+	url = https://github.com/priestjim/chef-php.git
+[submodule "cookbooks/chef_handler"]
+	path = cookbooks/chef_handler
+	url = https://github.com/chef-cookbooks/chef_handler.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = https://github.com/chef-cookbooks/windows.git
+[submodule "cookbooks/iis"]
+	path = cookbooks/iis
+	url = https://github.com/chef-cookbooks/iis.git
+[submodule "cookbooks/yum-epel"]
+	path = cookbooks/yum-epel
+	url = https://github.com/chef-cookbooks/yum-epel.git
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = https://github.com/chef-cookbooks/build-essential.git
+[submodule "cookbooks/chef-sugar"]
+	path = cookbooks/chef-sugar
+	url = https://github.com/sethvargo/chef-sugar.git
+[submodule "cookbooks/xdebug"]
+	path = cookbooks/xdebug
+	url = https://github.com/escapestudios-cookbooks/xdebug.git
