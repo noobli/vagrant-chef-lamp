@@ -1,0 +1,43 @@
+DEPENDENCIES
+  apache2
+  apt
+  base
+    path: chef/cookbooks/base
+  mysql (~> 6.0)
+  php
+    git: https://github.com/priestjim/chef-php
+    revision: 1c3a42ef3cb1c8d8bfdbb1ec97388d41fd26d80b
+  vim
+  xdebug
+    git: https://github.com/escapestudios-cookbooks/xdebug
+    revision: ccb06d2839a466d86ec2cde51bd45af9dfb90512
+
+GRAPH
+  apache2 (3.1.0)
+  apt (2.7.0)
+  base (0.1.1)
+    mysql (~> 6.0)
+    xdebug (>= 0.0.0)
+  build-essential (2.2.3)
+  chef-sugar (3.1.1)
+  mysql (6.1.0)
+    smf (>= 0.0.0)
+    yum-mysql-community (>= 0.0.0)
+  php (1.2.3)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    xml (>= 0.0.0)
+    yum (>= 0.0.0)
+  rbac (1.0.3)
+  smf (2.2.7)
+    rbac (>= 1.0.1)
+  vim (1.1.2)
+  xdebug (1.0.0)
+    build-essential (>= 0.0.0)
+    php (>= 0.0.0)
+  xml (1.2.13)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
+  yum (3.6.3)
+  yum-mysql-community (0.1.17)
+    yum (>= 3.0)
