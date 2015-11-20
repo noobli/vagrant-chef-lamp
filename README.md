@@ -1,4 +1,4 @@
-#LAMP development box with Vagrant and Chef Solo
+#vagrant-chef-lamp
 
 Sets up a LAMP dev box running `ubuntu/trusty64` in provider lxc or virtualbox.
 
@@ -25,8 +25,22 @@ Sets up a LAMP dev box running `ubuntu/trusty64` in provider lxc or virtualbox.
 
 ##Usage
 
+Clone git repository and update modules:
+
+```
+git clone https://github.com/noobli/vagrant-chef-lamp
+git submodule init
+git submodule update
+```
+
 Setup and provision the box:
 
 ```
 vagrant up
 ```
+
+##Crédits
+
+- Jhony Alceu Pereira
+
+Based in project: https://github.com/mike182uk/lamp-vagrant-chef-solo

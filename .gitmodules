@@ -43,3 +43,9 @@
 [submodule "cookbooks/xdebug"]
 	path = cookbooks/xdebug
 	url = https://github.com/escapestudios-cookbooks/xdebug.git
+[submodule "cookbooks/xml"]
+	path = cookbooks/xml
+	url = https://github.com/chef-cookbooks/xml.git
+[submodule "cookbooks/yumrepo"]
+	path = cookbooks/yumrepo
+	url = https://github.com/atomic-penguin/cookbook-yumrepo.git

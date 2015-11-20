@@ -51,7 +51,7 @@ Vagrant.configure(2) do |config|
       "php" => {
         "ext_conf_dir" => "/etc/php5/mods-available",
         "ini_settings" => {
-          "date.timezone" => "Europe/London"
+          "date.timezone" => "America/Sao_Paulo"
         }
       },
       "xdebug" => {
